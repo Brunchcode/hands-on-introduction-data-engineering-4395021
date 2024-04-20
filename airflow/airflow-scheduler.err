@@ -1,0 +1,9 @@
+[2024-04-20 08:47:34 +0000] [20128] [INFO] Starting gunicorn 20.1.0
+[2024-04-20 08:47:34 +0000] [20128] [INFO] Listening at: http://[::]:8793 (20128)
+[2024-04-20 08:47:34 +0000] [20128] [INFO] Using worker: sync
+[2024-04-20 08:47:34 +0000] [20129] [INFO] Booting worker with pid: 20129
+[2024-04-20 08:47:34 +0000] [20130] [INFO] Booting worker with pid: 20130
+[2024-04-20 08:49:27 +0000] [20128] [INFO] Handling signal: term
+[2024-04-20 08:49:27 +0000] [20129] [INFO] Worker exiting (pid: 20129)
+[2024-04-20 08:49:27 +0000] [20130] [INFO] Worker exiting (pid: 20130)
+[2024-04-20 08:49:27 +0000] [20128] [INFO] Shutting down: Master

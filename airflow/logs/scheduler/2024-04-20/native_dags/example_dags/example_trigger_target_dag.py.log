@@ -1,0 +1,18 @@
+[2024-04-20T08:48:01.430+0000] {processor.py:157} INFO - Started process (PID=20329) to work on /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-04-20T08:48:01.430+0000] {processor.py:826} INFO - Processing file /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-04-20T08:48:01.431+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:01.430+0000] {dagbag.py:541} INFO - Filling up the DagBag from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-04-20T08:48:01.435+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-04-20T08:48:01.599+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:01.599+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2024-04-20T08:48:01.634+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:01.634+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2024-04-20T08:48:01.667+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:01.667+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2024-04-20T08:48:01.676+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:01.676+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-20T08:48:01.683+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:01.683+0000] {dag.py:2763} INFO - Creating ORM DAG for example_trigger_target_dag
+[2024-04-20T08:48:01.700+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:01.700+0000] {dag.py:3504} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-04-20T08:48:01.752+0000] {processor.py:179} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.325 seconds
+[2024-04-20T08:48:54.915+0000] {processor.py:157} INFO - Started process (PID=20687) to work on /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-04-20T08:48:54.916+0000] {processor.py:826} INFO - Processing file /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-04-20T08:48:54.916+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:54.916+0000] {dagbag.py:541} INFO - Filling up the DagBag from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-04-20T08:48:54.920+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-04-20T08:48:54.932+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:54.932+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-20T08:48:54.954+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:54.954+0000] {dag.py:3504} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-04-20T08:48:55.009+0000] {processor.py:179} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.096 seconds

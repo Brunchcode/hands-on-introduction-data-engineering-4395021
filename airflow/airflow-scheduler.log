@@ -1,0 +1,26 @@
+2024-04-20 08:27:32,649 INFO - Starting the scheduler
+2024-04-20 08:27:32,649 INFO - Processing each file at most -1 times
+2024-04-20 08:27:32,660 INFO - Launched DagFileProcessorManager with pid: 10817
+2024-04-20 08:27:32,662 INFO - Resetting orphaned tasks for active dag runs
+2024-04-20 08:27:32,677 INFO - Configured default timezone Timezone('UTC')
+2024-04-20 08:29:54,829 INFO - Exiting gracefully upon receiving signal 15
+2024-04-20 08:29:55,833 INFO - Sending Signals.SIGTERM to group 10817. PIDs of all processes in the group: [10817]
+2024-04-20 08:29:55,834 INFO - Sending the signal Signals.SIGTERM to group 10817
+2024-04-20 08:29:56,092 INFO - Process psutil.Process(pid=10817, status='terminated', exitcode=0, started='08:27:32') (10817) terminated with exit code 0
+2024-04-20 08:29:56,093 INFO - Sending Signals.SIGTERM to group 10817. PIDs of all processes in the group: []
+2024-04-20 08:29:56,094 INFO - Sending the signal Signals.SIGTERM to group 10817
+2024-04-20 08:29:56,094 INFO - Sending the signal Signals.SIGTERM to process 10817 as process group is missing.
+2024-04-20 08:29:56,095 INFO - Exited execute loop
+2024-04-20 08:47:34,824 INFO - Starting the scheduler
+2024-04-20 08:47:34,825 INFO - Processing each file at most -1 times
+2024-04-20 08:47:34,829 INFO - Launched DagFileProcessorManager with pid: 20131
+2024-04-20 08:47:34,831 INFO - Resetting orphaned tasks for active dag runs
+2024-04-20 08:47:34,834 INFO - Configured default timezone Timezone('UTC')
+2024-04-20 08:49:26,566 INFO - Exiting gracefully upon receiving signal 15
+2024-04-20 08:49:27,570 INFO - Sending Signals.SIGTERM to group 20131. PIDs of all processes in the group: [20131]
+2024-04-20 08:49:27,571 INFO - Sending the signal Signals.SIGTERM to group 20131
+2024-04-20 08:49:27,828 INFO - Process psutil.Process(pid=20131, status='terminated', exitcode=0, started='08:47:34') (20131) terminated with exit code 0
+2024-04-20 08:49:27,831 INFO - Sending Signals.SIGTERM to group 20131. PIDs of all processes in the group: []
+2024-04-20 08:49:27,832 INFO - Sending the signal Signals.SIGTERM to group 20131
+2024-04-20 08:49:27,832 INFO - Sending the signal Signals.SIGTERM to process 20131 as process group is missing.
+2024-04-20 08:49:27,832 INFO - Exited execute loop

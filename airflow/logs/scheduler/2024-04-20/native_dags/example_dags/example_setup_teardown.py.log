@@ -1,0 +1,10 @@
+[2024-04-20T08:48:09.028+0000] {processor.py:157} INFO - Started process (PID=20372) to work on /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-04-20T08:48:09.029+0000] {processor.py:826} INFO - Processing file /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-04-20T08:48:09.030+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:09.029+0000] {dagbag.py:541} INFO - Filling up the DagBag from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-04-20T08:48:09.031+0000] {processor.py:838} WARNING - No viable dags retrieved from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-04-20T08:48:09.038+0000] {processor.py:179} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.011 seconds
+[2024-04-20T08:49:01.673+0000] {processor.py:157} INFO - Started process (PID=20725) to work on /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-04-20T08:49:01.673+0000] {processor.py:826} INFO - Processing file /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-04-20T08:49:01.674+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:49:01.674+0000] {dagbag.py:541} INFO - Filling up the DagBag from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-04-20T08:49:01.676+0000] {processor.py:838} WARNING - No viable dags retrieved from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-04-20T08:49:01.682+0000] {processor.py:179} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.011 seconds

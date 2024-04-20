@@ -1,0 +1,18 @@
+[2024-04-20T08:47:56.206+0000] {processor.py:157} INFO - Started process (PID=20294) to work on /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-04-20T08:47:56.207+0000] {processor.py:826} INFO - Processing file /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-04-20T08:47:56.208+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:47:56.207+0000] {dagbag.py:541} INFO - Filling up the DagBag from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-04-20T08:47:56.216+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-04-20T08:47:56.377+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:47:56.377+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:example_short_circuit_operator
+[2024-04-20T08:47:56.412+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:47:56.412+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_short_circuit_operator
+[2024-04-20T08:47:56.446+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:47:56.446+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_short_circuit_operator
+[2024-04-20T08:47:56.459+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:47:56.459+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-20T08:47:56.477+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:47:56.477+0000] {dag.py:2763} INFO - Creating ORM DAG for example_short_circuit_operator
+[2024-04-20T08:47:56.484+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:47:56.484+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-04-19T08:47:56.483832+00:00, run_after=2024-04-20T08:47:56.483832+00:00
+[2024-04-20T08:47:56.532+0000] {processor.py:179} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.328 seconds
+[2024-04-20T08:48:51.320+0000] {processor.py:157} INFO - Started process (PID=20653) to work on /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-04-20T08:48:51.321+0000] {processor.py:826} INFO - Processing file /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-04-20T08:48:51.321+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:51.321+0000] {dagbag.py:541} INFO - Filling up the DagBag from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-04-20T08:48:51.328+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-04-20T08:48:51.341+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:51.341+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-20T08:48:51.358+0000] {logging_mixin.py:150} INFO - [2024-04-20T08:48:51.358+0000] {dag.py:3504} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-04-19T08:48:51.358189+00:00, run_after=2024-04-20T08:48:51.358189+00:00
+[2024-04-20T08:48:51.401+0000] {processor.py:179} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.083 seconds
