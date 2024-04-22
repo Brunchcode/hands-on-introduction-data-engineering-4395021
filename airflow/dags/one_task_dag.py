@@ -4,7 +4,7 @@ from airflow.operators.bash import BashOperator
 from airflow import DAG
 
 default_args = {
-    'owner': 'anthony',
+    'owner': 'Anthony',
     'depends_on_past': False,
     'email_on_failure': False,
     'email_on_retries': False,
@@ -22,6 +22,6 @@ with DAG(
 
     task1 = BashOperator(
         task_id='one_task',
-        bash_command='echo "Hello Anthony" > /workspaces/hands-on-introduction-data-engineering-4395021/lab',
+        bash_command='echo "Hello linkedin learning this is Anthony the word best data engineer" > /workspaces/hands-on-introduction-data-engineering-4395021/lab/temp/create-this-file.txt',
         dag = dag
     )
