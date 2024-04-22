@@ -1,0 +1,5 @@
+[2024-04-22 14:30:25 +0000] [12621] [INFO] Starting gunicorn 20.1.0
+[2024-04-22 14:30:25 +0000] [12621] [INFO] Listening at: http://[::]:8793 (12621)
+[2024-04-22 14:30:25 +0000] [12621] [INFO] Using worker: sync
+[2024-04-22 14:30:25 +0000] [12622] [INFO] Booting worker with pid: 12622
+[2024-04-22 14:30:25 +0000] [12627] [INFO] Booting worker with pid: 12627

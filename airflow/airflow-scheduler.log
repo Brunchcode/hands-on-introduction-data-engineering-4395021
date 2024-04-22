@@ -1,0 +1,54 @@
+2024-04-22 14:30:25,809 INFO - Starting the scheduler
+2024-04-22 14:30:25,809 INFO - Processing each file at most -1 times
+2024-04-22 14:30:25,814 INFO - Launched DagFileProcessorManager with pid: 12628
+2024-04-22 14:30:25,815 INFO - Resetting orphaned tasks for active dag runs
+2024-04-22 14:30:25,818 INFO - Configured default timezone Timezone('UTC')
+2024-04-22 14:32:07,343 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.Bash_task_0 manual__2024-04-22T14:32:06.928889+00:00 [scheduled]>
+2024-04-22 14:32:07,343 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-04-22 14:32:07,344 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.Bash_task_0 manual__2024-04-22T14:32:06.928889+00:00 [scheduled]>
+2024-04-22 14:32:07,346 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='Bash_task_0', run_id='manual__2024-04-22T14:32:06.928889+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-04-22 14:32:07,346 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'Bash_task_0', 'manual__2024-04-22T14:32:06.928889+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-04-22 14:32:07,386 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'Bash_task_0', 'manual__2024-04-22T14:32:06.928889+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-04-22 14:32:09,384 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='Bash_task_0', run_id='manual__2024-04-22T14:32:06.928889+00:00', try_number=1, map_index=-1)
+2024-04-22 14:32:09,390 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=Bash_task_0, run_id=manual__2024-04-22T14:32:06.928889+00:00, map_index=-1, run_start_date=2024-04-22 14:32:08.777801+00:00, run_end_date=2024-04-22 14:32:09.009855+00:00, run_duration=0.232054, state=success, executor_state=success, try_number=1, max_tries=0, job_id=2, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-04-22 14:32:07.344571+00:00, queued_by_job_id=1, pid=13463
+2024-04-22 14:32:09,482 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.Bash_task_1 manual__2024-04-22T14:32:06.928889+00:00 [scheduled]>
+2024-04-22 14:32:09,482 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-04-22 14:32:09,483 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.Bash_task_1 manual__2024-04-22T14:32:06.928889+00:00 [scheduled]>
+2024-04-22 14:32:09,484 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='Bash_task_1', run_id='manual__2024-04-22T14:32:06.928889+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-04-22 14:32:09,484 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'Bash_task_1', 'manual__2024-04-22T14:32:06.928889+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-04-22 14:32:09,516 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'Bash_task_1', 'manual__2024-04-22T14:32:06.928889+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-04-22 14:32:16,474 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='Bash_task_1', run_id='manual__2024-04-22T14:32:06.928889+00:00', try_number=1, map_index=-1)
+2024-04-22 14:32:16,478 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=Bash_task_1, run_id=manual__2024-04-22T14:32:06.928889+00:00, map_index=-1, run_start_date=2024-04-22 14:32:10.913158+00:00, run_end_date=2024-04-22 14:32:16.151407+00:00, run_duration=5.238249, state=success, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-04-22 14:32:09.483392+00:00, queued_by_job_id=1, pid=13472
+2024-04-22 14:32:16,541 INFO - Marking run <DagRun two_task_dag @ 2024-04-22 14:32:06.928889+00:00: manual__2024-04-22T14:32:06.928889+00:00, state:running, queued_at: 2024-04-22 14:32:06.969433+00:00. externally triggered: True> successful
+2024-04-22 14:32:16,542 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-04-22 14:32:06.928889+00:00, run_id=manual__2024-04-22T14:32:06.928889+00:00, run_start_date=2024-04-22 14:32:07.251575+00:00, run_end_date=2024-04-22 14:32:16.542379+00:00, run_duration=9.290804, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-22 14:32:06.928889+00:00, data_interval_end=2024-04-22 14:32:06.928889+00:00, dag_hash=953a3b5688eba243dde30fe6cfdcc603
+2024-04-22 14:32:20,816 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.Bash_task_0 manual__2024-04-22T14:32:19.602807+00:00 [scheduled]>
+2024-04-22 14:32:20,817 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-04-22 14:32:20,817 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.Bash_task_0 manual__2024-04-22T14:32:19.602807+00:00 [scheduled]>
+2024-04-22 14:32:20,818 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='Bash_task_0', run_id='manual__2024-04-22T14:32:19.602807+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-04-22 14:32:20,818 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'Bash_task_0', 'manual__2024-04-22T14:32:19.602807+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-04-22 14:32:20,847 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'Bash_task_0', 'manual__2024-04-22T14:32:19.602807+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-04-22 14:32:22,928 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='Bash_task_0', run_id='manual__2024-04-22T14:32:19.602807+00:00', try_number=1, map_index=-1)
+2024-04-22 14:32:22,931 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=Bash_task_0, run_id=manual__2024-04-22T14:32:19.602807+00:00, map_index=-1, run_start_date=2024-04-22 14:32:22.244135+00:00, run_end_date=2024-04-22 14:32:22.492305+00:00, run_duration=0.24817, state=success, executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-04-22 14:32:20.817611+00:00, queued_by_job_id=1, pid=13543
+2024-04-22 14:32:23,028 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.Bash_task_1 manual__2024-04-22T14:32:19.602807+00:00 [scheduled]>
+2024-04-22 14:32:23,028 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-04-22 14:32:23,028 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.Bash_task_1 manual__2024-04-22T14:32:19.602807+00:00 [scheduled]>
+2024-04-22 14:32:23,029 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='Bash_task_1', run_id='manual__2024-04-22T14:32:19.602807+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-04-22 14:32:23,030 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'Bash_task_1', 'manual__2024-04-22T14:32:19.602807+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-04-22 14:32:23,059 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'Bash_task_1', 'manual__2024-04-22T14:32:19.602807+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-04-22 14:32:30,069 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='Bash_task_1', run_id='manual__2024-04-22T14:32:19.602807+00:00', try_number=1, map_index=-1)
+2024-04-22 14:32:30,072 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=Bash_task_1, run_id=manual__2024-04-22T14:32:19.602807+00:00, map_index=-1, run_start_date=2024-04-22 14:32:24.482485+00:00, run_end_date=2024-04-22 14:32:29.750845+00:00, run_duration=5.26836, state=success, executor_state=success, try_number=1, max_tries=0, job_id=5, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-04-22 14:32:23.029067+00:00, queued_by_job_id=1, pid=13558
+2024-04-22 14:32:30,254 INFO - Marking run <DagRun two_task_dag @ 2024-04-22 14:32:19.602807+00:00: manual__2024-04-22T14:32:19.602807+00:00, state:running, queued_at: 2024-04-22 14:32:19.613283+00:00. externally triggered: True> successful
+2024-04-22 14:32:30,254 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-04-22 14:32:19.602807+00:00, run_id=manual__2024-04-22T14:32:19.602807+00:00, run_start_date=2024-04-22 14:32:20.742788+00:00, run_end_date=2024-04-22 14:32:30.254926+00:00, run_duration=9.512138, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-22 14:32:19.602807+00:00, data_interval_end=2024-04-22 14:32:19.602807+00:00, dag_hash=953a3b5688eba243dde30fe6cfdcc603
+2024-04-22 14:35:25,969 INFO - Resetting orphaned tasks for active dag runs
+2024-04-22 14:40:25,998 INFO - Resetting orphaned tasks for active dag runs
+2024-04-22 14:45:26,029 INFO - Resetting orphaned tasks for active dag runs
+2024-04-22 14:50:26,055 INFO - Resetting orphaned tasks for active dag runs
+2024-04-22 14:55:26,091 INFO - Resetting orphaned tasks for active dag runs
