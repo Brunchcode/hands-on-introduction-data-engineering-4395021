@@ -61,3 +61,11 @@
 [[34m2024-04-22T14:45:26.029+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
 [[34m2024-04-22T14:50:26.055+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
 [[34m2024-04-22T14:55:26.091+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-22T14:58:12.834+0000[0m] {[34mscheduler_job_runner.py:[0m247} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2024-04-22T14:58:13.836+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 12628. PIDs of all processes in the group: [12628][0m
+[[34m2024-04-22T14:58:13.837+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 12628[0m
+[[34m2024-04-22T14:58:14.090+0000[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=12628, status='terminated', exitcode=0, started='14:30:25') (12628) terminated with exit code 0[0m
+[[34m2024-04-22T14:58:14.092+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 12628. PIDs of all processes in the group: [][0m
+[[34m2024-04-22T14:58:14.093+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 12628[0m
+[[34m2024-04-22T14:58:14.093+0000[0m] {[34mprocess_utils.py:[0m100} INFO[0m - Sending the signal Signals.SIGTERM to process 12628 as process group is missing.[0m
+[[34m2024-04-22T14:58:14.093+0000[0m] {[34mscheduler_job_runner.py:[0m864} INFO[0m - Exited execute loop[0m

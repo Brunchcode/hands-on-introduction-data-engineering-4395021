@@ -3,3 +3,7 @@
 [2024-04-22 14:30:25 +0000] [12621] [INFO] Using worker: sync
 [2024-04-22 14:30:25 +0000] [12622] [INFO] Booting worker with pid: 12622
 [2024-04-22 14:30:25 +0000] [12627] [INFO] Booting worker with pid: 12627
+[2024-04-22 14:58:14 +0000] [12621] [INFO] Handling signal: term
+[2024-04-22 14:58:14 +0000] [12627] [INFO] Worker exiting (pid: 12627)
+[2024-04-22 14:58:14 +0000] [12622] [INFO] Worker exiting (pid: 12622)
+[2024-04-22 14:58:14 +0000] [12621] [INFO] Shutting down: Master
