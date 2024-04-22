@@ -1976,3 +1976,14 @@ SyntaxError: unterminated string literal (detected at line 25)
 [2024-04-22T12:56:53.595+0000] {processor.py:157} INFO - Started process (PID=26941) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
 [2024-04-22T12:56:53.596+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
 [2024-04-22T12:56:53.596+0000] {logging_mixin.py:150} INFO - [2024-04-22T12:56:53.596+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2024-04-22T12:56:53.605+0000] {processor.py:836} INFO - DAG(s) dict_keys(['one_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2024-04-22T12:56:53.621+0000] {logging_mixin.py:150} INFO - [2024-04-22T12:56:53.621+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-22T12:56:53.639+0000] {logging_mixin.py:150} INFO - [2024-04-22T12:56:53.639+0000] {dag.py:3504} INFO - Setting next_dagrun for one_task_dag to None, run_after=None
+[2024-04-22T12:56:53.682+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.090 seconds
+[2024-04-22T12:57:23.760+0000] {processor.py:157} INFO - Started process (PID=27163) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2024-04-22T12:57:23.761+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py for tasks to queue
+[2024-04-22T12:57:23.761+0000] {logging_mixin.py:150} INFO - [2024-04-22T12:57:23.761+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2024-04-22T12:57:23.769+0000] {processor.py:836} INFO - DAG(s) dict_keys(['one_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py
+[2024-04-22T12:57:23.784+0000] {logging_mixin.py:150} INFO - [2024-04-22T12:57:23.784+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-04-22T12:57:23.799+0000] {logging_mixin.py:150} INFO - [2024-04-22T12:57:23.799+0000] {dag.py:3504} INFO - Setting next_dagrun for one_task_dag to None, run_after=None
+[2024-04-22T12:57:23.840+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py took 0.083 seconds

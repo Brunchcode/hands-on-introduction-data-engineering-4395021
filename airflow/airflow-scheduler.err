@@ -3,3 +3,7 @@
 [2024-04-22 12:06:44 +0000] [7784] [INFO] Using worker: sync
 [2024-04-22 12:06:44 +0000] [7785] [INFO] Booting worker with pid: 7785
 [2024-04-22 12:06:44 +0000] [7787] [INFO] Booting worker with pid: 7787
+[2024-04-22 12:57:34 +0000] [7784] [INFO] Handling signal: term
+[2024-04-22 12:57:34 +0000] [7785] [INFO] Worker exiting (pid: 7785)
+[2024-04-22 12:57:34 +0000] [7787] [INFO] Worker exiting (pid: 7787)
+[2024-04-22 12:57:34 +0000] [7784] [INFO] Shutting down: Master
