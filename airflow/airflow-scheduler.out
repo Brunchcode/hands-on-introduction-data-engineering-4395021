@@ -5,3 +5,31 @@
 [[34m2024-04-23T15:49:56.186+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone Timezone('UTC')[0m
 [2024-04-23T15:49:56.206+0000] {manager.py:411} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
 [[34m2024-04-23T15:54:56.337+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T15:59:56.399+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T16:04:56.428+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T16:09:56.456+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T16:14:56.485+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T16:19:56.513+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T16:22:48.795+0000[0m] {[34mscheduler_job_runner.py:[0m411} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2024-04-23T16:22:47.870021+00:00 [scheduled]>[0m
+[[34m2024-04-23T16:22:48.796+0000[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG extract_dag has 0/16 running and queued tasks[0m
+[[34m2024-04-23T16:22:48.796+0000[0m] {[34mscheduler_job_runner.py:[0m587} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2024-04-23T16:22:47.870021+00:00 [scheduled]>[0m
+[[34m2024-04-23T16:22:48.798+0000[0m] {[34mscheduler_job_runner.py:[0m625} INFO[0m - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2024-04-23T16:22:47.870021+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2024-04-23T16:22:48.798+0000[0m] {[34mbase_executor.py:[0m147} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-04-23T16:22:47.870021+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py'][0m
+[[34m2024-04-23T16:22:48.827+0000[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-04-23T16:22:47.870021+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py'][0m
+[[34m2024-04-23T16:22:49.596+0000[0m] {[34mdagbag.py:[0m541} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py[0m
+[[34m2024-04-23T16:22:50.133+0000[0m] {[34mtask_command.py:[0m410} INFO[0m - Running <TaskInstance: extract_dag.extract_task manual__2024-04-23T16:22:47.870021+00:00 [queued]> on host codespaces-225cfe[0m
+[[34m2024-04-23T16:22:51.001+0000[0m] {[34mscheduler_job_runner.py:[0m677} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2024-04-23T16:22:47.870021+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-04-23T16:22:51.007+0000[0m] {[34mscheduler_job_runner.py:[0m713} INFO[0m - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2024-04-23T16:22:47.870021+00:00, map_index=-1, run_start_date=2024-04-23 16:22:50.204865+00:00, run_end_date=2024-04-23 16:22:50.696738+00:00, run_duration=0.491873, state=success, executor_state=success, try_number=1, max_tries=0, job_id=2, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-04-23 16:22:48.796732+00:00, queued_by_job_id=1, pid=19023[0m
+[[34m2024-04-23T16:22:51.038+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun extract_dag @ 2024-04-23 16:22:47.870021+00:00: manual__2024-04-23T16:22:47.870021+00:00, state:running, queued_at: 2024-04-23 16:22:47.914510+00:00. externally triggered: True> successful[0m
+[[34m2024-04-23T16:22:51.038+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=extract_dag, execution_date=2024-04-23 16:22:47.870021+00:00, run_id=manual__2024-04-23T16:22:47.870021+00:00, run_start_date=2024-04-23 16:22:48.722543+00:00, run_end_date=2024-04-23 16:22:51.038829+00:00, run_duration=2.316286, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-04-23 16:22:47.870021+00:00, data_interval_end=2024-04-23 16:22:47.870021+00:00, dag_hash=ce7eccbf02310cc10955ca630d2eb4cd[0m
+[[34m2024-04-23T16:24:56.543+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2024-04-23T16:27:11.795+0000[0m] {[34mscheduler_job_runner.py:[0m247} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2024-04-23T16:27:12.798+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 5366. PIDs of all processes in the group: [5366][0m
+[[34m2024-04-23T16:27:12.798+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 5366[0m
+[[34m2024-04-23T16:27:13.092+0000[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=5366, status='terminated', exitcode=0, started='15:49:56') (5366) terminated with exit code 0[0m
+[[34m2024-04-23T16:27:13.094+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 5366. PIDs of all processes in the group: [][0m
+[[34m2024-04-23T16:27:13.094+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 5366[0m
+[[34m2024-04-23T16:27:13.095+0000[0m] {[34mprocess_utils.py:[0m100} INFO[0m - Sending the signal Signals.SIGTERM to process 5366 as process group is missing.[0m
+[[34m2024-04-23T16:27:13.095+0000[0m] {[34mscheduler_job_runner.py:[0m864} INFO[0m - Exited execute loop[0m
