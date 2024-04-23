@@ -1,0 +1,5 @@
+2024-04-23 15:49:56,178 INFO - Starting the scheduler
+2024-04-23 15:49:56,179 INFO - Processing each file at most -1 times
+2024-04-23 15:49:56,183 INFO - Launched DagFileProcessorManager with pid: 5366
+2024-04-23 15:49:56,184 INFO - Resetting orphaned tasks for active dag runs
+2024-04-23 15:49:56,186 INFO - Configured default timezone Timezone('UTC')
