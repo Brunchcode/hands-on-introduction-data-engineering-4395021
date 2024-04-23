@@ -249,3 +249,17 @@
 [2024-04-23T15:55:02.874+0000] {manager.py:761} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
 [2024-04-23T15:55:05.849+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
 [2024-04-23T15:55:05.850+0000] {manager.py:761} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:08.249+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:08.250+0000] {manager.py:761} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:10.908+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:10.909+0000] {manager.py:761} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:13.899+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:13.900+0000] {manager.py:761} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:15.967+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:15.970+0000] {manager.py:761} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:18.277+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:18.278+0000] {manager.py:761} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:21.039+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:21.039+0000] {manager.py:761} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:23.126+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-04-23T15:55:23.127+0000] {manager.py:761} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
