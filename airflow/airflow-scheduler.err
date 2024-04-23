@@ -1,0 +1,9 @@
+[2024-04-23 17:49:09 +0000] [55243] [INFO] Starting gunicorn 20.1.0
+[2024-04-23 17:49:09 +0000] [55243] [INFO] Listening at: http://[::]:8793 (55243)
+[2024-04-23 17:49:09 +0000] [55243] [INFO] Using worker: sync
+[2024-04-23 17:49:09 +0000] [55244] [INFO] Booting worker with pid: 55244
+[2024-04-23 17:49:09 +0000] [55245] [INFO] Booting worker with pid: 55245
+[2024-04-23 18:38:12 +0000] [55243] [INFO] Handling signal: term
+[2024-04-23 18:38:12 +0000] [55244] [INFO] Worker exiting (pid: 55244)
+[2024-04-23 18:38:12 +0000] [55245] [INFO] Worker exiting (pid: 55245)
+[2024-04-23 18:38:12 +0000] [55243] [INFO] Shutting down: Master
